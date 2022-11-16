@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: darkgrey;
+}
+
+.navbar-brand {
+    margin-left: 30px;
+}
+
+#navbarSupportedContent {
+    margin-right: 42px;
+}
+
+header{
+    display: flex;
+    margin-left: 250px;
+    padding: 5px;
+}
+
+header>img {
+    width: 350px;
+}
+
+header>div {
+    margin-top: 70px;
+    margin-right: 50px;
+    font-size: 50px;
+}
+
+.about_me {
+    padding: 3px;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.about_me>h2 {
+    color: white;
+}
+
+.my_blog {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+.my_blog>h3 {
+    text-align: center;
+    color: white;
+}
+
+.artikel1 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.artikel1>img {
+    width: 160px;
+}
+
+.artikel1>p {
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.artikel2 {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.artikel2>img {
+    width: 160px;
+}
+
+.artikel2>p {
+    font-size: 15px;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.year {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 2px;
+    color: white;
+}
+
+.created {
+    color: cadetblue;
+}
+
+.contact_us {
+    background-color: aquamarine;
+}
+
+.contact_us>h3 {
+    text-align: center;
+    color: white;
+}
+
+.contact_us>table>tr>td {
+        float: left;
+        margin-left: 400px;
+}
+
+.contact_us>table {
+    margin-left: 500px;
+}
+
+footer {
+    background-color: darkgray;
+}
