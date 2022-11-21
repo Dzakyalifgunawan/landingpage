@@ -14,20 +14,8 @@ body {
     margin-right: 42px;
 }
 
-header{
-    display: flex;
-    margin-left: 250px;
-    padding: 5px;
-}
-
 header>img {
-    width: 350px;
-}
-
-header>div {
-    margin-top: 70px;
-    margin-right: 50px;
-    font-size: 50px;
+    width: 250px;
 }
 
 .about_me {
@@ -50,42 +38,11 @@ header>div {
     color: white;
 }
 
-.artikel1 {
-    display: flex;
-    margin-left: 50px;
-}
-
-.artikel1>img {
-    width: 160px;
-}
-
-.artikel1>p {
-    font-size: 15px;
-    margin-top: 90px;
-    margin-left: 30px;
-}
-
-.artikel2 {
-    display: flex;
-    margin-left: 50px;
-    margin-top: 10px;
-}
-
-.artikel2>img {
-    width: 160px;
-}
-
-.artikel2>p {
-    font-size: 15px;
-    margin-top: 90px;
-    margin-left: 30px;
-}
-
 .year {
     background-color: blue;
-    border-radius: 5px;
-    padding: 2px;
     color: white;
+    border: 2px solid transparent;
+    border-radius: 4px;
 }
 
 .created {
@@ -94,6 +51,7 @@ header>div {
 
 .contact_us {
     background-color: aquamarine;
+    padding: 3px;
 }
 
 .contact_us>h3 {
@@ -101,15 +59,104 @@ header>div {
     color: white;
 }
 
-.contact_us>table>tr>td {
-        float: left;
-        margin-left: 400px;
+.form {
+    width: 300px;
 }
 
-.contact_us>table {
-    margin-left: 500px;
+.detailblog {
+    background-color: steelblue;
+}
+
+.blog {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+.detailblog1>h2 {
+    text-align: center;
+}
+
+.detailblog2>h2 {
+    text-align: center;
+}
+
+.resume {
+    background-color: chocolate;
+}
+
+.cv {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.cv-intro {
+    background-color: brown;
+    color: white;
+}
+
+.cv-intro>img {
+    width: 12em;
+    border-radius: 50px;
+    border: 5px solid;
+    border-color: white;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+.cv-intro>h4 {
+    margin-top: 10px;
+}
+
+.cv-content {
+    background-color: coral;
+}
+
+.cv-content>h1 {
+    text-align: center;
+}
+
+.menu {
+    margin-right: 10px;
+}
+
+.menu>a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu>a:active {
+    transition: all 1;
+    color: white;
+}
+
+.menu>div>a {
+    text-decoration: none;
+    color: black;
 }
 
 footer {
     background-color: darkgray;
+    color: white;
+}
+
+.footer>p>a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer>a {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .detailblog1>video {
+        width: 300px;
+    }
+
+    .detailblog2>video {
+        width: 300px;
+    }
 }
